@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+:root{
+    --r: 'Raleway';
+}
+
+.mmed{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+
+/* *************************************************************** */
+/* HEADER START */
+
+
+header{
+    background: url(../images/header-burger.jpg) no-repeat center/cover;
+}
+
+header .logo{
+    background: #4d9c0d;
+    border: 2px solid #62be19;
+    border-radius: 4px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 4px 10px;
+    width: 160px;
+    margin-top: 30px;
+    height: 30px;
+}
+
+header .logo img{
+    margin-right: 10px;
+    width: 24px;
+}
+
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container nav ul{
+    display: flex;
+    
+}
+
+header .container nav ul a{
+    background: transparent;
+    padding: 40px 20px 30px 20px;
+    display: flex;
+    color: #62be19;
+    transition: 1s;
+}
+
+header .container nav ul a:hover{
+    background: #4d9c0d;
+    color: #ffffff;
+}
+
+header .text h1{
+    color: #62be19;
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-top: 166px;
+    
+}
+
+header .text h2{
+    color: #62be19;
+    font-size: 36px;
+}
